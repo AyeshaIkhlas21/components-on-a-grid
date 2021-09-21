@@ -120,7 +120,6 @@ figure {
   grid-column: 1 / span 2;
   display: grid;
   gap: 1rem;
-  display: grid;
 }
 
 figure h2 {
