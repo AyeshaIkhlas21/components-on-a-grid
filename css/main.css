@@ -36,8 +36,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-  "banner banner"
-  "col1 col2";
+    "banner banner"
+    "col1 col2";
   gap: 1rem;
 }
 
@@ -53,4 +53,69 @@ body {
 
 .pano {
   grid-area: banner;
+}
+
+nav {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  font-family: "Patua One", sans-serif;
+  font-size: 2rem;
+}
+
+/* grid-template-columns: 1fr 1fr; */
+/* grid-template-rows: 1fr; */
+/* grid-template-columns: repeat(2, 1fr); */
+/* grid-template-rows: repeat (10, 1fr); */
+/* grid-gap: 1em; */
+/* grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr)) */
+/* grid-column: 1 / 2; */
+/* grid-row: 2 / 2; */
+/* margin: 0; */
+/* padding: 0; */
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: space-between; */
+
+main {
+  display: grid;
+  grid-template-columns: 20rem 2fr;
+}
+
+h2 {
+  color: #30658d;
+  font-family: "Patua One", sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+figure {
+  margin: 0;
+  display: grid;
+  grid-column: 1 / span 2;
+  justify-content: space-between;
+}
+
+figure h2 {
+  margin-bottom: 0;
 }
