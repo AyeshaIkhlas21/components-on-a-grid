@@ -1,6 +1,17 @@
 html {
   box-sizing: border-box;
+  background-color: #f2f1ed;
 }
+
+/*
+- *Typefaces:* `Patua One`, `Georgia`
+- *Text sizes:* `2rem`
+- *Line-heights:* `1.5`
+- *Colours:* `#fff`, `#f2f1ed`, `#30658d`, `#000`
+- *Gaps:* `1rem`
+- *Margins:* `1rem`
+- *Paddings:* `1rem`
+- *Logo width:* `14rem` */
 
 *,
 *::before,
