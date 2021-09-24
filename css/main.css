@@ -105,6 +105,7 @@ figure h2 {
   margin-bottom: 0;
 }
 
-figure:nth-last-of-type(1) {
+figure:nth-last-of-type(2) {
   grid-area: col2;
+  margin: 0;
 }
